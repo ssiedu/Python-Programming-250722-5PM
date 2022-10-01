@@ -1,3 +1,2 @@
-ram 22
-shyam 34
-ravi 12
+a 1
+v 2
