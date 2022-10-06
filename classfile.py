@@ -22,8 +22,13 @@ pickle.dump(S1,f)
 pickle.dump(S2,f)
 f.close()
 f=open("Record.txt","rb")
-S1=pickle.load(f)
+'''S1=pickle.load(f)
 S2=pickle.load(f)
 print(S1.__dict__)
-print(S2.__dict__)
-f.close()
+print(S2.__dict__)'''
+try : 
+    while True:
+        data=pickle.load(f)
+        data.display()
+except:
+    f.close()
